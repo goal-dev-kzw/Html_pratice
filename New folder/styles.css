@@ -1,0 +1,232 @@
+
+/*------------------default css setup--------------------*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+/*------------------ reusable css --------------------*/
+
+.clear {
+    clear: both;
+}
+
+.clear-fix:after{
+    content : ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.btn:link, .btn:visited{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	transition:  background-color 0.5s , color 0.4s, border 0.5s;
+}
+
+.btn-first:link,
+.btn-first:visited {
+    background: #f5801a;
+    color: #fff;
+    margin-right: 15px;
+    border: 1px solid #f5801a;
+}
+
+
+/*------------------ Header Section --------------------*/
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.27),rgba(0,0,0,0.37)), url("./image-1.jpg");
+	background-size: cover;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+
+.text-box {
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-box h1{
+	color: #fff;
+    font-size: 240%;
+    margin: 0 0 20px 0;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.btn-first:hover,
+.btn-first:active {
+    background: #f33919;
+   	border : 1px solid #f33919;
+}
+.btn-second:link,
+.btn-second:visited {
+    background: #3ef3ea;
+    color: #fff;
+    border: 1px solid #3ef3ea;
+    color: #000;
+}
+
+.btn-second:hover,
+.btn-second:active {
+    background: #f33919;
+    color: white;
+   	border : 1px solid #f33919;
+}
+
+
+/*------------------ Navbar --------------------*/
+
+nav {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 80px;
+}
+
+.logo-img {
+    width: 120px;
+    height: auto;
+    float: left;
+    padding-top: 8px;
+}
+
+.logo-brand {
+    font-size: 22px;
+    margin-top: 27px;
+    color: #fff;
+    padding-left: 13px;
+    float: left;
+    font-family: cursive;
+}
+
+.logo-brand span {
+    color: #f5801a;
+    font-size: 22px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+	color: #fff;
+    text-decoration: none;
+    font-size: 100%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s, color 0.4s;
+    padding : 8px 0px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+	color:  #f5801a;
+	border-bottom: 2px solid #f5801a;
+}
+
+
+
+/*------------------ Feature Section --------------------*/
+
+
+
+.section-feature{
+    padding: 80px 0;
+}
+
+h2,h3{
+    font-weight: 300px;
+    text-transform: uppercase;
+}
+
+h2{
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 180%;
+}
+
+h3{
+    font-size: 120%;
+    margin-bottom: 15px;
+}
+
+h2:after{
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    background: #f5801a;
+    margin-top: 18px;
+}
+
+.long-para{
+    line-height: 145%;
+    width: 70%;
+/*  margin-left: 15%;
+    margin-bottom: 30px;
+    margin-top:20px;*/
+    margin:20px 0 30px 15%;
+}
+
+.box{
+    padding: 1%;
+}
+
+.box p{
+    font-weight: 90%;
+    line-height: 145%;
+}
+
+.big-icon{
+    font-size: 280%;
+    display: block;
+    color: #f5801a;
+    margin-bottom: 10px;
+}
+
+
+
