@@ -60,7 +60,6 @@ nav #menu a:hover{
     text-decoration:underline;
 }
 div #content{
-	background: red;
     position: absolute;
     top:40%;
     left:10%;
@@ -89,3 +88,48 @@ div #content #hungry:hover,div #content #showme:hover{
     background: red;
     color:white;
 }
+/*------------------------------------Middle Section------------------------------------------------*/
+
+.middle{
+    max-width: 1140px;
+    margin:0 auto;
+}
+.all{
+	padding: 80px;
+    line-height: 150%;
+}
+.food{
+    /*padding:80px 0px;*/
+}
+.food h2{
+    text-align:center;
+    font-weight: 300px;
+}
+.food h2:after{
+    content: "";
+    display: block;
+    width:100px;
+    height: 2px;
+    margin: 20px auto;
+    background:orange;
+}
+.food p{
+    width:70%;
+    text-align: center;
+    margin:0 auto;
+}
+#column{
+    display: flex;
+}
+#colunm div{
+    flex:1;
+}
+#column div i{
+    font-size:200%;
+    color:orange;
+}
+#column div p{
+    padding:15px 0;
+}
+
+
