@@ -20,6 +20,7 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 
@@ -173,7 +174,6 @@ nav {
 }
 
 h2,h3{
-    font-weight: 300px;
     text-transform: uppercase;
 }
 
@@ -583,4 +583,43 @@ footer p{
     font-size: 90%;
     margin-top: 20px;
     padding: 25px;
+}
+
+
+/*------------------   Sticky Navbar  --------------------*/
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 2px 2px #555;
+    z-index: 9999;
+}
+
+.sticky .main-nav{
+    margin-top: 15px;
+}
+
+.sticky .logo{
+    display: none;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    color: #555;
+    padding: 15px 0;
+}
+
+
+.sticky .logo-brand{
+    color: #000;
+}
+
+.sticky .main-nav{
+    margin-top: 31px;
+}
+
+.sticky .logo-img{
+    padding-top: 0;
 }
