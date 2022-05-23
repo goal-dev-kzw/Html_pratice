@@ -603,6 +603,7 @@ footer p{
 
 .sticky .logo{
     display: none;
+    width: 80px;
 }
 
 .sticky .main-nav li a:link,
@@ -622,4 +623,17 @@ footer p{
 
 .sticky .logo-img{
     padding-top: 0;
+}
+
+/*------------------   Responsive Navigation  --------------------*/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i{
+    color: #fff;
+    font-size: 200%;
 }
