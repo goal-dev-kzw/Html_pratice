@@ -4,12 +4,34 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	
+	<!-------------------- BootStrap-4 CDN --------------------->
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+	<!-------------------- Fontawesome CDN --------------------->
+
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-------------------- Google Fonts CDN --------------------->
+
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+
+	<!-------------------- Custom CSS --------------------->
+
 	<link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
+
+	<!-------------------- Preloader --------------------->
+
 	<div id="preloader">
 		<div id="status">&nbsp;</div>
 	</div>
+
+	<!-------------------- Home Section (header) --------------------->
 
 	<header id="home">
 		<video poster="./solo.jpg" autoplay loop muted id="home-bg-video">
@@ -18,9 +40,34 @@
 			<source src="./solo.webm" type="video/webm">
 		</video>
 		<div id="home-overlay"></div>
+		<div id="home-content">
+			<div id="home-content-inner" class="text-center">
+			<div id="home-heading">
+				<h1>Digital</h1> <br>
+				<h1>Creative <span>Agency</span></h1>
+			</div>
+			<div id="home-text">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit place at maxime.</p>
+			</div>
+			<div id="home-btn">
+				<a href="#about" class="btn btn-general btn-home">
+					Start Now
+				</a>
+		 </div>
+		 <a href="#about" id="arrow-down">
+		 	<i class="fas fa-chevron-down"></i>
+		 </a>
+		</div>
+		</div>
 	</header>
 
+	<!---------- JQuery ------------>
 	<script src="./jquery.js"></script>
+
+	<!---------- Bootstrap ------------>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+	<!---------- Custom Js ------------>
 	<script src="./index.js"></script>
 </body>
 </html>
