@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Second Project</title>
+
+
+    <!--- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
+    <!-- google font cdn-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+
+    
+    <!--- custom cdn-->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!----------------------------------------------loading Section-------------------------------------->
+    <div id="preloader">
+        <div id="status">
+            &nbsp;
+        </div>
+    </div>
+    <!------------------------------------------Header Section------------------------------------------->
+    <header>
+        <video poster="./images/solo.jpg" autoplay loop muted id="home-bg-video">
+            <source src="./images/solo.mp4" type="video/mp4">
+            <source src="./images/solo.agv" type="video/agv">
+            <source src="./images/solo.webm" type="video/webm">
+        </video>
+        <div id="home-overlay"></div>
+        <div id="home-content">
+            <div id="home-content-inner" class="text-center">
+                <div id="home-heading">
+                    <h1>Digital</h1><br>
+                    <h1>Creative <span>Agency</span></h1>
+                </div>
+                <div id="home-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+                <div id="home-btn">
+                    <a href="#about" class="btn btn-general btn-home">Start Now</a>
+                </div>
+            </div>
+                <a href="#about" id="arrow-down">
+                    <i class="fas fa-chevron-down">
+                    </i>
+                </a>
+
+        </div>
+    </header>
+    <section id="about">
+        <div class="about-01">
+                <div class="content-box-lg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div id="about-left">
+                                        <div class="vertical-heading">
+                                            <h5>Who we are</h5>
+                                            <h2>A <span> Story</span> <br>
+                                                About us
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div id="about-right">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla adipisci laboriosam ad illum error sit magnam neque impedit amet facere, architecto nesciunt libero voluptatum delectus eum odio illo? Nihil, quibusdam!</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nihil deserunt ullam deleniti beatae cupiditate, nemo a sed? Magnam optio esse blanditiis non doloribus, est hic obcaecati in nobis incidunt?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div id="about-bottom" class="text-center">
+                                        <img src="./about.png" alt="about us" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        <div id="about-02">
+            <div class="content-box-md">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fas fa-rocket"></i>
+                                <h3>Mission</h3>
+                                <hr>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum soluta, debitis quisquam delectus nemo incidunt adipisci ut,
+                                     iusto libero eos officiis, fuga doloribus praesentium repellat amet mollitia voluptatibus voluptatem cupiditate!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fas fa-eye"></i>
+                                <h3>Vision</h3>
+                                <hr>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum et ipsam culpa deserunt non vitae consequatur, 
+                                    aliquid harum animi qui laudantium, laborum, blanditiis iure repudiandae doloremque ipsa quae unde modi.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fas fa-pencil-alt"></i>
+                                <h3>Passion</h3>
+                                <hr>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quod tempore 
+                                    tempora pariatur ut qui animi! Consequatur quia a veniam rem. Dicta vero eveniet nisi a eaque, doloribus soluta? Ratione!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+
+    <script src="./jquery.js"></script>
+    	<!---------- Bootstrap ------------>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+
+    <script src="./jquery.waypoints.min.css"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
